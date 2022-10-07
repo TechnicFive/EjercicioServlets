@@ -32,6 +32,7 @@ public class Empleado implements java.io.Serializable {
 		this.telefono = telefono;
 		this.puesto = puesto;
 		this.codDepartamento = codDepartamento;
+		System.out.println("Cosa");
 	}
 
 	public int getCodigo() {
